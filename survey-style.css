@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('GIF/love-bg4.gif') fixed; /* Replace 'background.gif' with your actual GIF file name */
+    background-size: contain;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itinerary-form {
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to make text more readable */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow for depth */
+    
+}
+#title {
+    color: #ff4081; /* Adjust the title color as needed */
+}
+
+.header_text {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.form-btn {
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+}
+
+.form-btn a {
+   
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f3d250; /* Yellow background color */
+    color: #2c3e50; /* Complementing text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif; /* Use the desired font */
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.form-btn a:hover {
+    background-color: #ec8845; /* Change the hover color as needed */
+}
